@@ -8,7 +8,7 @@ const roleList = {
 
 const creepLimit = {
   harvester: 2,
-  upgrader: 2,
+  upgrader: 1,
   builder: 1,
 };
 
