@@ -1,4 +1,7 @@
 let builder = {
+  roleID: "builder",
+  preset: [WORK, CARRY, MOVE],
+
   run: function (creep) {
     if (creep.memory.building && creep.store[RESOURCE_ENERGY] == 0) {
       creep.memory.building = false;

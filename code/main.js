@@ -3,11 +3,13 @@
 const roleList = {
   harvester: require("role.harvester"),
   upgrader: require("role.upgrader"),
+  builder: require("role.builder"),
 };
 
 const creepLimit = {
   harvester: 2,
   upgrader: 2,
+  builder: 1,
 };
 
 function ClearCreepMemory() {
